@@ -5,9 +5,8 @@ The main goal of the final project is to create a pipeline analisis tool
 
 ## Project Requierments: 
 
-### Main menu: 
-In the main menue there are three main catagories 
-#### Pressure Surge Analysis 
+ 
+### Pressure Surge Analysis 
 **Problem "A"**
 - `Goal` 
     - The magnitude of the pressure surge that would cause complete failure of a pipeline with an initial crack 
@@ -46,7 +45,7 @@ In the main menue there are three main catagories
     - Utilize exception handiling and valiudataion 
 
 
-#### Determination of Crack Growth Rate Material Properties 
+### Determination of Crack Growth Rate Material Properties 
 **Problem "B"**
 - `GOAL`
     - In this part of the assignment we're looking for the Paris equation coeffiecient and ecponent
@@ -76,7 +75,7 @@ In the main menue there are three main catagories
     - Use exception handling for a case where the required input data file cannot be found 
     - This problem dows not require any user inputs (Then how is stuff specified?)
 
-#### Failure Probobility Analysis 
+### Failure Probobility Analysis 
 **Problem "C"**
 - `GOAL` 
     - This uses a simple Monte Carlo simulation of pipeline fatigue falure to estimate the falure probability of a steel pipeline 
@@ -84,6 +83,6 @@ In the main menue there are three main catagories
 
 - `INPUTS` 
     - There are two main modes that the user can pick
-        1. Keep the inital length of the crack as a fixed value (standard dev = 0) while changing the initial depth of the crack (normal distribution with a mean of `8.6 mm` and a standard devialtion of `1.5 mm`) . The desired lifetime of the pipeline will face a standard deviation of 10 years with a normal distibution 
+        1. Keep the inital length of the crack as a fixed value (standard dev = 0) while changing the initial depth of the  crack  (normal distribution with a mean of `8.6 mm` and a standard devialtion of `1.5 mm`) . The desired lifetime of the pipeline will face a standard deviation of 10 years with a normal distibution 
         2. Keep the inital length of the crack as a fixed value (standard dev = 0) while changing the initial depth of the crack (normal distribution with a mean of `4.5 mm` and a standard devialtion of `1.6 mm`). The desired lifetime of the pipeline will face a standard deviation of 10 years with a normal distibution 
 
