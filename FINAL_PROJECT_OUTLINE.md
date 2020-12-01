@@ -75,8 +75,6 @@ The main goal of the final project is to create a pipeline analisis tool
     - Use exception handling for a case where the required input data file cannot be found 
     - This problem dows not require any user inputs (Then how is stuff specified?)
 
-### Failure Probobility Analysis 
-**Problem "C"**
 - `GOAL` 
     - This uses a simple Monte Carlo simulation of pipeline fatigue falure to estimate the falure probability of a steel pipeline 
     - This code requiers your code from Probvlem A to calculate the number of cyles to falure 
